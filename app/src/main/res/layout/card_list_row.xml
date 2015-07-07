@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/card_list_row"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+<!-- This works and card numbers appear in the list
+    <com.vinaygaba.creditcardview.CreditCardView
+        android:id="@+id/card_list_row_credit_card"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cardbackground_world"
+        app:cardName="Vinay Gaba"
+        app:cardNameTextColor="#cccccc"
+        app:cardNumber="5500005555555559"
+        app:cardNumberFormat="all_digits"
+        app:cardNumberTextColor="#cccccc"
+        app:expiryDate="02/22"
+        app:expiryDateTextColor="#cccccc"
+        app:hintTextColor="#cccccc"
+        app:isEditable="false"
+        app:putChip="true"
+        app:type="auto"
+        app:validTillTextColor="#cccccc"
+        />
+-->
+
+    <com.vinaygaba.creditcardview.CreditCardView
+        android:id="@+id/card_list_row_credit_card"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cardbackground_world"
+        app:cardNameTextColor="#cccccc"
+        app:cardNumberFormat="all_digits"
+        app:cardNumberTextColor="#cccccc"
+        app:expiryDateTextColor="#cccccc"
+        app:hintTextColor="#cccccc"
+        app:isEditable="false"
+        app:putChip="true"
+        app:type="auto"
+        app:validTillTextColor="#cccccc"
+        />
+
+</RelativeLayout>
